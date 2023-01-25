@@ -6,10 +6,9 @@ services:
     volumes:
       - /var/lib/postgresql/data/
     env_file:
-      # А почему так удобнее?
       - ./.env.example
   web:
-    build: ../api_yamdb
+    image: dianakab/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
