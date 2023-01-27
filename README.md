@@ -121,7 +121,7 @@ DATABASES = {
     "following": "Максим горький"
 }
 ```
-![example workflow](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![Django-app workflow](https://github.com/DianaKab/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)]
 
 ## Авторы
 
